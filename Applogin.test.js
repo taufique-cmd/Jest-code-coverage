@@ -14,30 +14,30 @@ describe('positive()',function(){
 
 
 
-// test('negativetest',() =>{
+test('negativetest',() =>{
     
-//     let result = Applogin('1admin','1admin');
-//     console.log(result);
-//     assert.equal(result , false);
-// });
+    let result = Applogin('1admin','1admin');
+    console.log(result);
+    assert.equal(result , false);
+});
 
-// test('negativetest1',() =>{
+test('negativetest1',() =>{
     
-//     let result = Applogin('1admin','admin ');
-//     console.log(result);
-//     assert.equal(result , false);
-// });
+    let result = Applogin('1admin','admin ');
+    console.log(result);
+    assert.equal(result , false);
+});
 
-// test('negativetest2',() =>{
+test('negativetest2',() =>{
     
-//     let result = Applogin('admin','1admin ');
-//     console.log(result);
-//     assert.equal(result , false);
-// });
+    let result = Applogin('admin','1admin ');
+    console.log(result);
+    assert.equal(result , false);
+});
 
-// test('negativetest3',() =>{
+test('negativetest3',() =>{
     
-//     let result = Applogin(' ','  ');
-//     console.log(result);
-//     assert.equal(result , false);
-// });
+    let result = Applogin(' ','  ');
+    console.log(result);
+    assert.equal(result , false);
+});
